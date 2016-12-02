@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html>
+
+<meta charset="utf-8">
+<head>
+	<script src="./html2canvas.js"></script>
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+	<script src="pixelart.js"></script>	
+	<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+	<link rel="stylesheet" href="./pixelart.css">
+	<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+</head>
+
+<body>
+
+<div class="izquierda">
+	<div id="container"></div>
+</div>
+
+<div class="derecha">
+	<div class="actions">
+		<div id="color-pick">
+				<div class="white"></div>
+				<div class="black"></div>
+				<div class="red"></div>
+				<div class="orange"></div>
+				<div class="blue"></div>
+				<div class="aqua"></div>
+				<div class="gold"></div>
+				<div class="magenta"></div>
+				<div class="lime"></div>
+		</div>
+	</div>
+</div>
+
+<div class="botones"> 
+	<div>
+		<form>
+		  <p class="TH">Tamaño :</p>
+		  <input type="text" name="resize" id="resize"><br>
+		</form>
+		<button id="sizeit" class="boton"><span class = "ion-fireball"></span>Tamaño</button>
+		<button id="reset" class="boton"><span class = "ion-fireball"></span>Reiniciar</button>
+	</div>
+		<button id="toggle-border" class="boton"><span class = "ion-fireball"></span>Quitar bordes</button>
+		<button id="grab-it" class="boton"><span class = "ion-fireball"></span>Guardar</button>
+</div>
+
+<div class="guardar"></div>
+
+</body>
+
+</html>
